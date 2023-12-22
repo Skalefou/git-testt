@@ -34,14 +34,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Valider la date de l'événement
     if (empty(trim($_POST["event_date"]))) {
-        $event_date_err = "Veuillez entrer une date pour l'événement.";
+        $event_date_err = "Veuillez entrer une date pour l'évenement.";
     } else {
         $event_date = trim($_POST["event_date"]);
     }
 
     // Valider le lieu
     if (empty(trim($_POST["location"]))) {
-        $location_err = "Veuillez entrer un lieu pour l'événement.";
+        $location_err = "Veuillez entrer un lieu pour l'évenement.";
     } else {
         $location = trim($_POST["location"]);
     }
