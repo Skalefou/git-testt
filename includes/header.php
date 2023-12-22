@@ -6,7 +6,6 @@
             <a href="my-events.php">Mes Fêtes</a>
             <a href="event-list.php">Liste des fêtes</a>
             <a href="creation-event.php">Créer un fête</a>
->>>>>>> fix/ticket5
             <a href="logout.php">Déconnexion</a>
         <?php else : ?>
             <!-- Liens pour les visiteurs non connectés -->
